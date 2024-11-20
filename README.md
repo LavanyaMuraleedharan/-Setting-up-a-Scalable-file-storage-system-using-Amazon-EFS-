@@ -2,7 +2,8 @@
   ## AIM
        To  setting up a scalable file storage system using Amazon Elastic File System (EFS) for two EC2 instances in different availability zones. 
 ## PROBLEM STATEMENT
-    Explain about the Experiment.
+    This experiment demonstrates how to configure Amazon EFS to provide a shared storage solution for two Linux EC2 instances across different availability zones, enabling easy data sharing. The aim is to ensure both instances can mount 
+     and access the EFS file system and validate data consistency across instances.
 
 ## ALGORITHM
  ### Steps 1: Create two EC2 instances in different availability zones.
